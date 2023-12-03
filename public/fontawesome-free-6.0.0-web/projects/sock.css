@@ -1,0 +1,35 @@
+.layout{
+    background-color: #1369f8;
+    height: 560px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    padding: 50px;
+   text-align: left;
+}
+a{
+    color: white;
+}
+.container1{
+    display: flex;
+}
+h6{
+    display: block;
+}
+b{
+   color: black;
+}
+h1{
+    color: white;
+}
+.left{
+    float: left;
+   
+    }
+    
+    .right{
+        float: right;
+        }

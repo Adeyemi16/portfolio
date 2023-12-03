@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="js/angular.min.js"></script>
+    <script src="newfile.js"></script>
+    <div ng-app ="newApp" ng-controller="newController">
+        <table border="2">
+            <tr>
+            <th>sn</th>
+            <th>Name</th>
+            <th>Following</th>
+            <th>Location</th>
+            </tr>
+            <tr>
+            <td>{{users.name}}</td>
+            <td>{{users.following}}</td>
+            <td>{{users.location}}</td>
+            <td><img src="{{}}users.avatar_url" width="150px" height=""></td>
+        </table>
+        
+    </div>
+</body>
+</html>

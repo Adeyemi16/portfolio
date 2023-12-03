@@ -1,0 +1,51 @@
+divgreen{
+   float: left;
+    background-color: teal;
+    text-align: center;
+}
+h1{
+    color: white ;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+.para{
+    color: grey;
+    text-align: center;
+    
+}
+.div{
+   margin : 10px;
+}
+.container1{
+    display: flex;
+}
+
+.left{
+flex: 1;
+background-color: teal;
+height: 100vh;
+padding-top: 200px;
+}
+
+.right{
+    flex: 2;
+    color: teal;
+    text-align: center;
+    padding-top: 100px;
+    }
+.btncust{
+     text-align: center;
+     padding-left: 40px;
+     padding-right: 40px;
+}
+    
+.a{
+    color: teal;
+    text-align: center;
+}
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <link rel="stylesheet" href="css.css">
+    <script src="jquery.js"></script>
+    <fieldset>
+        <legend style="text-align: center; color: white;">
+            TRAVEL NOW
+          </legend>
+        <ul>
+            <li>
+           
+              <div class="vancouver"> 
+                  <h1>Vancouver</h1>
+                  <h5> A beautiful metropolitan in the world famous Canada , known for it beautiful scenery and lovely landscape</h5>
+                  <button> Flight details</button>
+              </div>
+              
+             <script>
+                  $(document).ready(function(){
+                  $('button').on('click', function(){
+                      var price = $('<p>Flight will be take off on 25th of may, 2022</p>');
+                      $('.vancouver').append(price);
+                      $(this).toggle();
+                  });
+          
+              });
+             </script> 
+             </li>
+        </ul>
+    </fieldset>
+   
+      
+   
+</body>
+</html>

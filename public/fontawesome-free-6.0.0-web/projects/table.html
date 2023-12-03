@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/augular.min.js"></script>
+</head>
+<body>
+    <div ng-app="" ng-init="no=['1', '2', '3']">
+        <table>
+            <tr>
+                <td ng-repeat="x in no">
+                    {{ x }}
+                </td>
+            </tr>
+            <tr>
+                <td ng-repeat="x in no">
+                    {{ x }}
+                </td>
+            </tr>
+            <tr>
+                <td ng-repeat="x in no">
+                    {{ x }}
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

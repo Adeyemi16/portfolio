@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box1{
+    background-color: #2DC97F;
+    padding-left: 5px;
+    padding-top: 1px;
+    height: 240px;
+    width : 210px;
+    color: white;
+    font-weight: bold;    
+}
+.box2{
+    background-color: #171A1C;
+    padding-left: 8px;
+    padding-top: 2px;
+    height: 152px;
+}
+input[type=text]{
+    border-radius:8px;
+    padding:1px;
+    font-weight: bold;
+}
+input[type=email]{
+    border-radius:8px;
+    padding:1px;
+    font-weight: bold;
+}
+input[type=submit]{
+    border-radius:15px;
+    background-color: #CECFCB;
+    padding:2px;
+    font-size: x-small;
+    font-weight: bold;
+    width: 36%;
+    height: 24px;
+}
+    </style>
+</head>
+<body>
+    <div class="box1">
+    <h2 style="color: black;">Example form</h2>
+    <div class="box2">
+    <form>
+        <label><strong>Username:</strong></label>
+        <input type="text" placeholder="Ian Bell" id="username" required><br><br>
+        <label><strong>Email:</strong></label>
+        <input type="email" placeholder="ianbell@emailserver.com" id="email" required><br><br>
+        <input type="submit" id="submit" value="Subscribe">
+      </form><br>
+    </div>
+    </div>
+</body>
+</html>
