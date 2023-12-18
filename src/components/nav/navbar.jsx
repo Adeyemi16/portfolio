@@ -2,7 +2,15 @@ import React, { Component, useState } from "react";
 import "../assets/unicons/css/line.css";
 import "./navbar.css";    
 const Navb = () => {
-  const [Toggle, showMenu] = useState(false);
+  window.addEventListener("scroll", function(){
+    //when scroll is higher than 560 viewport height
+            const navbar = this.document.querySelector(".header")
+            if(this.scrollY >= 80) navbar.classList.add("scroll-header");
+            else navbar.classList.remove("scroll-header")
+        })
+
+        const [Toggle, showMenu] = useState(false);
+        const [activeNAv, setActiveNav]= useState("#home")
     return (
       <header className="header">
         <nav className="nav contain">
@@ -10,7 +18,7 @@ const Navb = () => {
           <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}> 
             <ul className="nav_list grid">
               <li className="nav_item">
-                <p href="#home" className="nav_link active-link">
+                <p href="#home" className="nav_link active-link" onClick={()=> setActiveNav("#home")}>
                   <i className="uil uil-estate nav_icon"></i>Home
                 </p>
               </li>

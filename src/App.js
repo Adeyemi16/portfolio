@@ -7,11 +7,14 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualification from './components/qualification/Qualification';
 // import Testimonials from './components/testimonial/Testimonials';
+import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
+import ScrollUp from './components/scrollup/ScrollUp';
 export default function App() {
   return (
+    <>
+    <Navb />
     <main className='main'>
-      <Navb />
       <Home />
       <About />
       <Skills />
@@ -19,7 +22,12 @@ export default function App() {
       <Qualification />
       {/* <Testimonials /> */}
       <Contact/>
+      
     </main>
+    <Footer/>
+    <ScrollUp/>
+    </>
+    
   );
 }
 
