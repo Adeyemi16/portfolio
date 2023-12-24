@@ -45,7 +45,7 @@ import {toast} from "react-hot-toast"
                     <h3 className="contact__card-title">Whatsapp</h3>
                     <span className="contact__card-data">08106159439</span>
 
-                    <a href="https://wa.me/8106159439" className='contact__button'>Write me 
+                    <a href="https://wa.me/message/KZTDQSIOV2SMF1" className='contact__button'>Write me 
                       <FaArrowRight className='contact__button-icon'/></a>
                 </div>
 
