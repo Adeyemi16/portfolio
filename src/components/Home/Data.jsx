@@ -5,8 +5,8 @@ export const Data = () => {
       <div className="home__data">
           <h1 className="home__title">Adeyemi Owodunni
           </h1>
-          <h3 className="home__subtitle">------- Visual Designer</h3>
-          <p className="home__description">I am a front end designer based in
+          <h3 className="home__subtitle">------- Web Developer</h3>
+          <p className="home__description">I am a fullstack developer based in
               Lagos, and I'm very passionate and dedicated to my work.</p>
           <a href="#contact" className="button button-flex" style={{textDecoration: "none"}}>
               Say Hello

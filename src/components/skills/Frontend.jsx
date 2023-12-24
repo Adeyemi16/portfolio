@@ -36,7 +36,7 @@ const frontend = () => {
           <i className="uil uil-check-circle services__modal-icon"></i>
 
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
+              <h3 className="skills__name">Tailwind.css</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

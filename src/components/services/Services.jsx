@@ -32,9 +32,9 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Frontend Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
+                Service with more than 2 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -54,18 +54,6 @@ const Services = () => {
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>I
                   create ux element interactions.
-                  <p className="services__modal__info"></p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>I
-                  position your company brand.
-                  <p className="services__modal__info"></p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  Design and mockups of products for companies.
                   <p className="services__modal__info"></p>
                 </li>
               </ul>
@@ -92,16 +80,15 @@ const Services = () => {
               <i onClick={() =>
             toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              <h3 className="services__modal-title">Backend Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                Backend for many websites including ecommerce, task management and so on
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>I
-                  develop the user interface.
+                  write schema for various aspects of the website.
                   <p className="services__modal__info"></p>
                 </li>
 
@@ -113,19 +100,13 @@ const Services = () => {
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>I
-                  create ux element interactions.
+                  write controllers for various functions.
                   <p className="services__modal__info"></p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>I
-                  position your company brand.
-                  <p className="services__modal__info"></p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  Design and mockups of products for companies.
+                  develop Api's for the frontend developer.
                   <p className="services__modal__info"></p>
                 </li>
               </ul>
@@ -151,41 +132,22 @@ const Services = () => {
               <i onClick={() =>
             toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Visual
-                Designer</h3>
+              <h3 className="services__modal-title">Mobile
+                Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                Developing interactive applications for android and ios
               </p>
  
               <ul className="services__modal-services grid">
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>I
-                  develop the user interface.
+                  develop the mobile interface.
                   <p className="services__modal__info"></p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  Web page development.
-                  <p className="services__modal__info"></p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>I
-                  create ux element interactions.
-                  <p className="services__modal__info"></p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>I
-                  position your company brand.
-                  <p className="services__modal__info"></p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  Design and mockups of products for companies.
+                  I write backend code for the app
                   <p className="services__modal__info"></p>
                 </li>
               </ul>

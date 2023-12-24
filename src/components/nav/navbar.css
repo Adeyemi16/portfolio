@@ -36,7 +36,7 @@
     transition: .3s;
 }
 a{
- text-decoration: none;
+ text-decoration: none !important;
 }
 .nav_icon,.nav_close,.nav_toggle{
     display: none;
